@@ -1,0 +1,144 @@
+* {
+    background-color: #1D232A;
+    color: #ECF9FF;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    padding: 15px 30px;
+    background-color: #1D232A;
+    
+    font-family: Arial, sans-serif;
+    align-self: auto;
+  }
+  
+  .left-navbar {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+.main-page {
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    gap: 25px;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-right: 10%;
+
+}
+.circle {
+    font-family:apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #1D232A;
+    margin: 10px;
+    background-color: #1D232A;
+    flex-shrink: 0;        /* Prevent shrinking in flex layout */
+  }
+  
+  .container {
+    font-family:apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    gap: 1px;
+    padding: 5px;
+    background-color: #1D232A; /* Dark background like in your image */
+    margin-left: 50%;
+}
+  
+.main-page img {
+    flex: 1;
+    height: 350px;
+    border-radius: 50%;
+    width: 350px;
+
+
+}
+.name {
+    font-weight: 500;
+    font-size: xx-large;
+}
+.about-stuff{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    align-items: flex-start;
+    font-family:apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+;
+}
+.bit {
+    font-size: large;
+    font-weight: 500;
+}
+
+  
+  .nav-dot img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .nav-about {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  
+  .navbar-name {
+    font-weight: bold;
+    font-size: 26px;
+    
+  }
+  .about-name {
+    font-size: 50px; }
+
+     .main-pic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-family: "apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif; 
+ 
+     }
+     .socials {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        width: 100%;
+        height: 50px;
+
+     }
+     
+    
+  
+  .navbar-title {
+    margin-top: 8px;
+    margin-left: 8px;
+    font-size: 14px;
+    
+  }
+  
+  .right-navbar {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #444;
+  }
+  
+  .right-navbar > div {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
